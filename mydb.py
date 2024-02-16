@@ -8,5 +8,5 @@ import mysql.connector
 dataBase = mysql.connector.connect(user='root', password='password', host='localhost',
 auth_plugin='mysql_native_password')
 cursorObject=dataBase.cursor()
-cursorObject.execute("CREATE DATABASE dentist")
+cursorObject.execute("CREATE DATABASE Nutrico")
 print('All done!')
